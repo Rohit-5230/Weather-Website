@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+.resultstable
+{
+    width:50%;
+}
+body
+{
+      background: linear-gradient(to left, yellow, rgb(224, 230, 233));
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'Bitter', serif;
+}
+#lslist li
+{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+    width: 30%;
+    margin-top:10px;
+    font-family: 'Bitter', cursive;
+    
+}
