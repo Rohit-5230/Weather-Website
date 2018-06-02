@@ -1,0 +1,40 @@
+
+.resultstable
+{
+    width:50%;
+}
+body
+{
+    background: linear-gradient(to left, yellow, rgb(224, 230, 233));
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'Cantarell', sans-serif;
+}
+#lslist li  
+{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color:blueviolet;
+    text-shadow: 2px 2px 2px #aaa;
+    width: 30%;
+    margin-top:10px;
+    font-family: 'Bitter', cursive;
+    
+}
+#heading
+{
+    
+    font-size: 60px;
+    font-family: 'Cantarell', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+}
+#entercity
+{
+    font-family: 'Tangerine', serif;
+    font-size: 80px;
+    text-shadow: 4px 4px 4px #aaa;
+}
