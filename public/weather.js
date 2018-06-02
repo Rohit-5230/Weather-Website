@@ -38,7 +38,7 @@ function printResults(data) {
 
 function findweather() {
     var cityname = document.getElementById("city").value;
-    $.get("http://api.openweathermap.org/data/2.5/weather?q=" + cityname + "&appid=" + api, function () {
+    $.get("https://api.openweathermap.org/data/2.5/weather?q=" + cityname + "&appid=" + api, function () {
         console.log("Success");
     }
     )
@@ -67,7 +67,7 @@ function findMyWeather() {
         navigator.geolocation.getCurrentPosition(function (position) {
             var lat = position.coords.latitude;
             var lon = position.coords.longitude;
-            $.get("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + api, function (data) {
+            $.get("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + api, function (data) {
                 console.log(data);
                 emptyResults();
                 printResults(data);
